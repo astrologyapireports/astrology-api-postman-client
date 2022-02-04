@@ -1,0 +1,4400 @@
+{
+	"info": {
+		"_postman_id": "17556a3b-5c5e-4d24-9c5b-420fc18cc3e7",
+		"name": "AstrologyApiReports.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Indian Astrology",
+			"item": [
+				{
+					"name": "Ashtakvarga",
+					"item": [
+						{
+							"name": "planet_ashtak/:planetName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/planet_ashtak/sun"
+							},
+							"response": []
+						},
+						{
+							"name": "sarvashtak",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sarvashtak"
+							},
+							"response": []
+						},
+						{
+							"name": "trikon_shodhan",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/trikon_shodhan"
+							},
+							"response": []
+						},
+						{
+							"name": "ekadhipatya_shodhan",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/ekadhipatya_shodhan"
+							},
+							"response": []
+						},
+						{
+							"name": "rasi_gunak",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/rasi_gunak"
+							},
+							"response": []
+						},
+						{
+							"name": "graha_gunak",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/graha_gunak"
+							},
+							"response": []
+						},
+						{
+							"name": "shodya_pinda",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/shodya_pinda"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Astro Details",
+					"item": [
+						{
+							"name": "birth_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Kumar\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/birth_details"
+							},
+							"response": []
+						},
+						{
+							"name": "astro_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/astro_details"
+							},
+							"response": []
+						},
+						{
+							"name": "planets",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/planets"
+							},
+							"response": []
+						},
+						{
+							"name": "planets/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/planets/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "planets/tropical",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/planets/tropical"
+							},
+							"response": []
+						},
+						{
+							"name": "bhav_madhya",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/bhav_madhya"
+							},
+							"response": []
+						},
+						{
+							"name": "bhav_madhya/tropical",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/bhav_madhya/tropical"
+							},
+							"response": []
+						},
+						{
+							"name": "ayanamsha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/ayanamsha"
+							},
+							"response": []
+						},
+						{
+							"name": "ghat_chakra",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/ghat_chakra"
+							},
+							"response": []
+						},
+						{
+							"name": "planetary_friendship",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/planetary_friendship"
+							},
+							"response": []
+						},
+						{
+							"name": "avkahada_chakra",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/avkahada_chakra"
+							},
+							"response": []
+						},
+						{
+							"name": "aprakashiy_upgraha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/aprakashiy_upgraha"
+							},
+							"response": []
+						},
+						{
+							"name": "basic_astro",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/basic_astro"
+							},
+							"response": []
+						},
+						{
+							"name": "malefic_points",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/malefic_points"
+							},
+							"response": []
+						},
+						{
+							"name": "favourable_points",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/favourable_points"
+							},
+							"response": []
+						},
+						{
+							"name": "sign_details/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sign_details/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "vedic_horoscope",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/vedic_horoscope"
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Auspicious Muhurata",
+					"item": [
+						{
+							"name": "auspicious_muhurta/marriage/monthly",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"month\": 2,\n    \"year\": 2021\n}"
+								},
+								"url": "https://json.apireports.com/v1/auspicious_muhurta/marriage/monthly"
+							},
+							"response": []
+						},
+						{
+							"name": "auspicious_muhurta/marriage/yearly",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"year\": 2021\n}"
+								},
+								"url": "https://json.apireports.com/v1/auspicious_muhurta/marriage/yearly"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Biorhythm",
+					"item": [
+						{
+							"name": "biorhythm",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/biorhythm"
+							},
+							"response": []
+						},
+						{
+							"name": "biorhythm/custom_date",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"c_day\":12,\n    \"c_month\":9,\n    \"c_year\":2021,\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/biorhythm/custom_date"
+							},
+							"response": []
+						},
+						{
+							"name": "moon_biorhythm",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/moon_biorhythm"
+							},
+							"response": []
+						},
+						{
+							"name": "moon_biorhythm/custom_date",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"c_day\":12,\n    \"c_month\":9,\n    \"c_year\":2021,\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/moon_biorhythm/custom_date"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Char Dasha",
+					"item": [
+						{
+							"name": "major_chardasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/major_chardasha"
+							},
+							"response": []
+						},
+						{
+							"name": "current_chardasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_chardasha"
+							},
+							"response": []
+						},
+						{
+							"name": "current_chardasha_date",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"c_day\":12,\n    \"c_month\":9,\n    \"c_year\":2021,\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_chardasha_date"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_chardasha/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_chardasha/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_sub_chardasha/:majorSign/:subSign",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_sub_chardasha/taurus/aries"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Geo Details",
+					"item": [
+						{
+							"name": "timezone_with_dst",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025\n}"
+								},
+								"url": "https://json.apireports.com/v1/timezone_with_dst"
+							},
+							"response": []
+						},
+						{
+							"name": "geo_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"place\": \"new delhi\",\n    \"max_rows\":10\n}"
+								},
+								"url": "https://json.apireports.com/v1/geo_details"
+							},
+							"response": []
+						},
+						{
+							"name": "timezone",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone_id\": \"Asia/Kolkata\",\n    \"is_dst\":false\n}"
+								},
+								"url": "https://json.apireports.com/v1/timezone"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Horoscope Charts",
+					"item": [
+						{
+							"name": "horo_chart/:chartID",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horo_chart/d1"
+							},
+							"response": []
+						},
+						{
+							"name": "horo_chart_extended/:chartID",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horo_chart_extended/d1"
+							},
+							"response": []
+						},
+						{
+							"name": "horo_chart_image/:chartID",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/horo_chart_image/d1"
+							},
+							"response": []
+						},
+						{
+							"name": "horo_chart_extended_image/:chartID",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": {
+									"raw": "https://json.apireports.com/v1/horo_chart_extended_image/:chartID",
+									"protocol": "https",
+									"host": [
+										"json",
+										"apireports",
+										"com"
+									],
+									"path": [
+										"v1",
+										"horo_chart_extended_image",
+										":chartID"
+									],
+									"variable": [
+										{
+											"key": "chartID",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Horoscope Dosha",
+					"item": [
+						{
+							"name": "kalsarpa_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kalsarpa_details"
+							},
+							"response": []
+						},
+						{
+							"name": "manglik",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/manglik"
+							},
+							"response": []
+						},
+						{
+							"name": "sadhesati_current_status",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sadhesati_current_status"
+							},
+							"response": []
+						},
+						{
+							"name": "sadhesati_life_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sadhesati_life_details"
+							},
+							"response": []
+						},
+						{
+							"name": "pitra_dosha_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/pitra_dosha_report"
+							},
+							"response": []
+						},
+						{
+							"name": "nakshtra_dosha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/nakshtra_dosha"
+							},
+							"response": []
+						},
+						{
+							"name": "sadhesati_remedies",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sadhesati_remedies"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Jaimini",
+					"item": [
+						{
+							"name": "jaimini_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/jaimini_details"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Krishnamurti Paddhati",
+					"item": [
+						{
+							"name": "kp_planets",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_planets"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_planets/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_planets/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_house_cusps",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_house_cusps"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_birth_chart",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_birth_chart"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_birth_chart/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_birth_chart/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_birth_chart_image",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_birth_chart_image"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_birth_chart_image/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_birth_chart_image/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_house_significator",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_house_significator"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_house_significator/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_house_significator/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_planet_significator",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_planet_significator"
+							},
+							"response": []
+						},
+						{
+							"name": "kp_planet_significator/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kp_planet_significator/extended"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Lalkitab",
+					"item": [
+						{
+							"name": "lalkitab_horoscope",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/lalkitab_horoscope"
+							},
+							"response": []
+						},
+						{
+							"name": "lalkitab_horoscope/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/lalkitab_horoscope/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "lalkitab_debts",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/lalkitab_debts"
+							},
+							"response": []
+						},
+						{
+							"name": "lalkitab_remedies/:planetName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/lalkitab_remedies/sun"
+							},
+							"response": []
+						},
+						{
+							"name": "lalkitab_houses",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/lalkitab_houses"
+							},
+							"response": []
+						},
+						{
+							"name": "lalkitab_planets",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/lalkitab_planets"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "House Report",
+					"item": [
+						{
+							"name": "general_house_report/:planetName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_house_report/sun"
+							},
+							"response": []
+						},
+						{
+							"name": "general_rashi_report/:planetName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_rashi_report/sun"
+							},
+							"response": []
+						},
+						{
+							"name": "general_ascendant_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_ascendant_report"
+							},
+							"response": []
+						},
+						{
+							"name": "general_nakshatra_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_nakshatra_report"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Match Making",
+					"item": [
+						{
+							"name": "match_birth_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_birth_details"
+							},
+							"response": []
+						},
+						{
+							"name": "match_astro_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_astro_details"
+							},
+							"response": []
+						},
+						{
+							"name": "match_planet_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_planet_details"
+							},
+							"response": []
+						},
+						{
+							"name": "match_planet_details/extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_planet_details/extended"
+							},
+							"response": []
+						},
+						{
+							"name": "match_ashtakoot_points",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_ashtakoot_points"
+							},
+							"response": []
+						},
+						{
+							"name": "match_ashtakoot_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_ashtakoot_report"
+							},
+							"response": []
+						},
+						{
+							"name": "match_dashakoot_points",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_dashakoot_points"
+							},
+							"response": []
+						},
+						{
+							"name": "papasamyam_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/papasamyam_details"
+							},
+							"response": []
+						},
+						{
+							"name": "match_vedha_dosha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_vedha_dosha"
+							},
+							"response": []
+						},
+						{
+							"name": "match_rajju_dosha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/match_rajju_dosha"
+							},
+							"response": []
+						},
+						{
+							"name": "zodiac_compatibility/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/zodiac_compatibility/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "zodiac_compatibility/:signName/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"m_day\": 15,\n    \"m_month\": 9,\n    \"m_year\": 1994,\n    \"m_hour\": 12,\n    \"m_min\": 30,\n    \"m_lat\": 28.6139,\n    \"m_lon\": 77.1025,\n    \"m_tzone\": 5.5,\n    \"f_day\": 11,\n    \"f_month\": 10,\n    \"f_year\": 1997,\n    \"f_hour\": 10,\n    \"f_min\": 12,\n    \"f_lat\": 28.6139,\n    \"f_lon\": 77.1025,\n    \"f_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/zodiac_compatibility/aries/taurus"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Numerology",
+					"item": [
+						{
+							"name": "numero_table",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_table"
+							},
+							"response": []
+						},
+						{
+							"name": "numero_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_report"
+							},
+							"response": []
+						},
+						{
+							"name": "numero_fav_time",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_fav_time"
+							},
+							"response": []
+						},
+						{
+							"name": "numero_place_vastu",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_place_vastu"
+							},
+							"response": []
+						},
+						{
+							"name": "numero_fasts_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_fasts_report"
+							},
+							"response": []
+						},
+						{
+							"name": "numero_fav_lord",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_fav_lord"
+							},
+							"response": []
+						},
+						{
+							"name": "numero_fav_mantra",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numero_fav_mantra"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Panchang",
+					"item": [
+						{
+							"name": "basic_panchang",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/basic_panchang"
+							},
+							"response": []
+						},
+						{
+							"name": "basic_panchang/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/basic_panchang/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "advanced_panchang",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/advanced_panchang"
+							},
+							"response": []
+						},
+						{
+							"name": "advanced_panchang/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/advanced_panchang/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "chaughadiya_muhurta",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/chaughadiya_muhurta"
+							},
+							"response": []
+						},
+						{
+							"name": "hora_muhurta",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/hora_muhurta"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_calendar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_calendar"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_calendar/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_calendar/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_planet",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_planet"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_planet_extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_planet_extended"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_planet/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_planet/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_planet_extended/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_planet_extended/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart_extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart_extended"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart_image",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart_image"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart_extended_image",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart_extended_image"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart_image/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart_image/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_chart_extended_image/sunrise",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5,\n    \"bgClr\":\"white\",\n    \"lineClr\":\"black\",\n    \"signClr\":\"red\",\n    \"planetClr\":\"blue\",\n    \"chartSize\":300,\n    \"lineWidth\":2,\n    \"fontSize\":15,\n    \"signSymbol\":\"N\",\n    \"planetSymbol\":\"N\"\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_chart_extended_image/sunrise"
+							},
+							"response": []
+						},
+						{
+							"name": "panchang_festival",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/panchang_festival"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Suggestions And Remedies",
+					"item": [
+						{
+							"name": "panchang_festival",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/kalsarpa_remedy"
+							},
+							"response": []
+						},
+						{
+							"name": "manglik_remedy",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/manglik_remedy"
+							},
+							"response": []
+						},
+						{
+							"name": "basic_gem_suggestion",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/basic_gem_suggestion"
+							},
+							"response": []
+						},
+						{
+							"name": "gems_report",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/gems_report"
+							},
+							"response": []
+						},
+						{
+							"name": "puja_suggestion",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/puja_suggestion"
+							},
+							"response": []
+						},
+						{
+							"name": "rudraksha_suggestion",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/rudraksha_suggestion"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Varshaphal",
+					"item": [
+						{
+							"name": "varshaphal_planets",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_planets"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_year_chart",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_year_chart"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_year_chart_extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_year_chart_extended"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_year_chart_image",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_year_chart_image"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_year_chart_image_extended",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_year_chart_image_extended"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_month_chart",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_month_chart"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_details"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_muntha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_muntha"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_harsha_bala",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_harsha_bala"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_panchavargeeya_bala",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_panchavargeeya_bala"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_vim_mudda_dasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_vim_mudda_dasha"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_yogini_mudda_dasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_yogini_mudda_dasha"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_saham_points",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_saham_points"
+							},
+							"response": []
+						},
+						{
+							"name": "varshaphal_month_planets",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/varshaphal_month_planets"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Vimshottari Dasha",
+					"item": [
+						{
+							"name": "major_vdasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/major_vdasha"
+							},
+							"response": []
+						},
+						{
+							"name": "current_vdasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_vdasha"
+							},
+							"response": []
+						},
+						{
+							"name": "current_vdasha_date",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"c_day\": 15,\n    \"c_month\": 12,\n    \"c_year\": 2020,\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_vdasha_date"
+							},
+							"response": []
+						},
+						{
+							"name": "current_vdasha_all",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_vdasha_all"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_vdasha/:md",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_vdasha/sun"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_sub_vdasha/:md/:ad",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_sub_vdasha/sun/moon"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_sub_sub_vdasha/:md/:ad/:pd",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_sub_sub_vdasha/sun/moon/mars",
+								"description": "Get Sookshma dasha by major, antar and pratyantar dasha"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_sub_sub_sub_vdasha/:md/:ad/:pd/:sd",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_sub_sub_sub_vdasha/sun/moon/mars/mercury",
+								"description": "Get Pran dasha by major, antar, pratyanta and sookshma dasha"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Yogini Dasha",
+					"item": [
+						{
+							"name": "major_yogini_dasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/major_yogini_dasha",
+								"description": "Gives a list of Major yogini dasha for three cycles"
+							},
+							"response": []
+						},
+						{
+							"name": "current_yogini_dasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_yogini_dasha",
+								"description": "Get the currently undergoing Yogini Dasha upto three levels viz. Major, Sub and Sub-Sub."
+							},
+							"response": []
+						},
+						{
+							"name": "current_yogini_dasha_date",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"c_day\":12,\n    \"c_month\":10,\n    \"c_year\":2020,\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/current_yogini_dasha_date",
+								"description": "Get the currently undergoing Yogini Dasha upto three levels viz. Major, Sub and Sub-Sub for custom date"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_yogini_dasha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_yogini_dasha"
+							},
+							"response": []
+						},
+						{
+							"name": "sub_yogini_dasha/:dashaCycle/:dashaName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sub_yogini_dasha/1/mangala",
+								"description": "Get sub yogini dasha by dasha cycle and dasha name"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Horoscope Prediction API",
+			"item": [
+				{
+					"name": "Horoscope Prediction",
+					"item": [
+						{
+							"name": "horoscope_prediction/daily/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horoscope_prediction/daily/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "horoscope_prediction/next/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horoscope_prediction/next/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "horoscope_prediction/previous/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horoscope_prediction/previous/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "horoscope_prediction/monthly/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horoscope_prediction/monthly/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "horoscope_prediction/yearly/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/horoscope_prediction/yearly/aries"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Nakshatra Consolidated",
+					"item": [
+						{
+							"name": "daily_nakshatra_consolidated",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/daily_nakshatra_consolidated"
+							},
+							"response": []
+						},
+						{
+							"name": "daily_nakshatra_consolidated/next",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/daily_nakshatra_consolidated/next"
+							},
+							"response": []
+						},
+						{
+							"name": "daily_nakshatra_consolidated/previous",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/daily_nakshatra_consolidated/previous"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Nakshatra Prediction",
+					"item": [
+						{
+							"name": "daily_nakshatra_prediction",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/daily_nakshatra_prediction"
+							},
+							"response": []
+						},
+						{
+							"name": "daily_nakshatra_prediction/next",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/daily_nakshatra_prediction/next"
+							},
+							"response": []
+						},
+						{
+							"name": "daily_nakshatra_prediction/previous",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/daily_nakshatra_prediction/previous"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Sun Sign Prediction",
+					"item": [
+						{
+							"name": "sun_sign_prediction/daily/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sun_sign_prediction/daily/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "sun_sign_prediction/previous/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sun_sign_prediction/previous/aries"
+							},
+							"response": []
+						},
+						{
+							"name": "sun_sign_prediction/next/:signName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"timezone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/sun_sign_prediction/next/aries"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Western Astrology",
+			"item": [
+				{
+					"name": "Solar Return",
+					"item": [
+						{
+							"name": "solar_return_details",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/solar_return_details"
+							},
+							"response": []
+						},
+						{
+							"name": "solar_return_planets",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/solar_return_planets"
+							},
+							"response": []
+						},
+						{
+							"name": "solar_return_house_cusps",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/solar_return_house_cusps"
+							},
+							"response": []
+						},
+						{
+							"name": "solar_return_planet_aspects",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/solar_return_planet_aspects"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Tropical Chart",
+					"item": [
+						{
+							"name": "natal_wheel_chart",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/natal_wheel_chart"
+							},
+							"response": []
+						},
+						{
+							"name": "natal_aspects_grid",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/natal_aspects_grid"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Tropical Life Report",
+					"item": [
+						{
+							"name": "general_ascendant_report/tropical",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_ascendant_report/tropical"
+							},
+							"response": []
+						},
+						{
+							"name": "general_sign_report/tropical/:planetName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_sign_report/tropical/sun"
+							},
+							"response": []
+						},
+						{
+							"name": "general_house_report/tropical/:planetName",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/general_house_report/tropical/sun"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Tropical Transits",
+					"item": [
+						{
+							"name": "tropical_transits/daily",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/tropical_transits/daily"
+							},
+							"response": []
+						},
+						{
+							"name": "tropical_transits/weekly",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/tropical_transits/weekly"
+							},
+							"response": []
+						},
+						{
+							"name": "tropical_transits/monthly",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/tropical_transits/monthly"
+							},
+							"response": []
+						},
+						{
+							"name": "tropical_transits_timing/daily",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/tropical_transits_timing/daily"
+							},
+							"response": []
+						},
+						{
+							"name": "tropical_transits_timing/weekly",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/tropical_transits_timing/weekly"
+							},
+							"response": []
+						},
+						{
+							"name": "tropical_transits_timing/monthly",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/tropical_transits_timing/monthly"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Western Horoscope",
+					"item": [
+						{
+							"name": "western_horoscope",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/western_horoscope"
+							},
+							"response": []
+						},
+						{
+							"name": "western_chart_data",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994,\n    \"hour\": 12,\n    \"min\": 30,\n    \"lat\": 28.6139,\n    \"lon\": 77.1025,\n    \"tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/western_chart_data"
+							},
+							"response": []
+						},
+						{
+							"name": "synastry_horoscope",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"p_day\": 15,\n    \"p_month\": 9,\n    \"p_year\": 1994,\n    \"p_hour\": 12,\n    \"p_min\": 30,\n    \"p_lat\": 28.6139,\n    \"p_lon\": 77.1025,\n    \"p_tzone\": 5.5,\n    \"s_day\": 11,\n    \"s_month\": 10,\n    \"s_year\": 1997,\n    \"s_hour\": 10,\n    \"s_min\": 12,\n    \"s_lat\": 28.6139,\n    \"s_lon\": 77.1025,\n    \"s_tzone\": 5.5\n}"
+								},
+								"url": "https://json.apireports.com/v1/synastry_horoscope"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Western Numerology",
+					"item": [
+						{
+							"name": "numerological_numbers",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/numerological_numbers"
+							},
+							"response": []
+						},
+						{
+							"name": "life_path_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/life_path_number"
+							},
+							"response": []
+						},
+						{
+							"name": "expression_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/expression_number"
+							},
+							"response": []
+						},
+						{
+							"name": "soul_urge_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/soul_urge_number"
+							},
+							"response": []
+						},
+						{
+							"name": "subconscious_self_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/subconscious_self_number"
+							},
+							"response": []
+						},
+						{
+							"name": "challenge_numbers",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/challenge_numbers"
+							},
+							"response": []
+						},
+						{
+							"name": "birth_day_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/birth_day_number"
+							},
+							"response": []
+						},
+						{
+							"name": "personality_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/personality_number"
+							},
+							"response": []
+						},
+						{
+							"name": "karmic_lesson_numbers",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/karmic_lesson_numbers"
+							},
+							"response": []
+						},
+						{
+							"name": "destiny_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/destiny_number"
+							},
+							"response": []
+						},
+						{
+							"name": "balance_number",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"Suresh Sharma\",\n    \"day\": 15,\n    \"month\": 9,\n    \"year\": 1994\n}"
+								},
+								"url": "https://json.apireports.com/v1/balance_number"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Indian PDF",
+			"item": [
+				{
+					"name": "Basic Horoscope PDF",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "986e781559edbb32e805d4b135780812",
+								"username": "2"
+							}
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Sanjay\",\r\n  \"gender\": \"male\",\r\n  \"day\": 15,\r\n  \"month\": 9,\r\n  \"year\": 1994,\r\n  \"hour\": 12,\r\n  \"min\": 30,\r\n  \"lat\": 28.6139,\r\n  \"lon\": 77.231,\r\n  \"tzone\": 5.5,\r\n  \"birth_place\": \"New Delhi, India\",\r\n\r\n  \r\n  \"footer_link\": \"Your Link\",\r\n  \"logo_url\": \"https://cdn.apireports.com/assets/img/logo/logo2.png\",\r\n  \"company_name\": \"Your Company Name\",\r\n  \"company_info\": \"Your Company Info\",\r\n  \"domain_url\": \"Your Company Link\",\r\n  \"company_email\": \"Your Company Email\",\r\n  \"company_landline\": \"0121-2222XXXX\",\r\n  \"company_mobile\": \"+91-9999XXXXXX\",\r\n\r\n  \r\n  \"language\": \"en\",\r\n  \"chart_style\": \"NORTH_INDIAN\",\r\n  \"basic_astro_details\":\"show\",\r\n  \"planetary_positions\":\"show\",\r\n  \"horoscope_charts\":\"show\",\r\n  \"house_cusps\":\"show\",\r\n  \"divisional_charts\":\"show\",\r\n  \"vim_dasha\":\"show\",\r\n  \"yogini_dasha\":\"show\",\r\n  \"kaalsarpa_dosha\":\"show\",\r\n  \"manglik_dosha\":\"show\",\r\n  \"sadhesati\":\"show\",\r\n  \"gemstone_suggestions\":\"show\",\r\n  \"rudraksha_suggestions\":\"show\",\r\n  \"numerology\":\"show\",\r\n  \"ascendant_report\":\"show\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://pdf.apireports.com/v1/basic_horoscope_pdf"
+					},
+					"response": []
+				},
+				{
+					"name": "Professional Horoscope PDF",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "986e781559edbb32e805d4b135780812",
+								"username": "2"
+							}
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Sanjay\",\r\n  \"gender\": \"male\",\r\n  \"day\": 15,\r\n  \"month\": 9,\r\n  \"year\": 1994,\r\n  \"hour\": 12,\r\n  \"min\": 30,\r\n  \"lat\": 28.6139,\r\n  \"lon\": 77.231,\r\n  \"tzone\": 5.5,\r\n  \"birth_place\": \"New Delhi, India\",\r\n\r\n  \r\n  \"footer_link\": \"Your Link\",\r\n  \"logo_url\": \"https://cdn.apireports.com/assets/img/logo/logo2.png\",\r\n  \"company_name\": \"Your Company Name\",\r\n  \"company_info\": \"Your Company Info\",\r\n  \"domain_url\": \"Your Company Link\",\r\n  \"company_email\": \"Your Company Email\",\r\n  \"company_landline\": \"0121-2222XXXX\",\r\n  \"company_mobile\": \"+91-9999XXXXXX\",\r\n  \r\n  \"language\": \"en\",\r\n  \"chart_style\": \"NORTH_INDIAN\",\r\n  \"basic_astro_details\":\"show\",\r\n  \"planetary_positions\":\"show\",\r\n  \"horoscope_charts\":\"show\",\r\n  \"house_cusps\":\"show\",\r\n  \"divisional_charts\":\"show\",\r\n  \"planetary_friendship\":\"show\",\r\n  \"kp_planets\":\"show\",\r\n  \"kp_house_cusps\":\"show\",\r\n  \"ashtakvarga\":\"show\",\r\n  \"vim_dasha\":\"show\",\r\n  \"yogini_dasha\":\"show\",\r\n  \"char_dasha\":\"show\",\r\n  \"kaalsarpa_dosha\":\"show\",\r\n  \"manglik_dosha\":\"show\",\r\n  \"sadhesati\":\"show\",\r\n  \"gemstone_suggestions\":\"show\",\r\n  \"rudraksha_suggestions\":\"show\",\r\n  \"numerology\":\"show\",\r\n  \"ascendant_report\":\"show\",\r\n  \"planets_report\":\"show\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://pdf.apireports.com/v1/pro_horoscope_pdf"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"username": "{YOUR_USER_ID}",
+			"password": "{YOUR_API_KEY}"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
